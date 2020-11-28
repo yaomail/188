@@ -3,7 +3,7 @@ name: Cloud189Checkin
 on:
   push:
   schedule:
-    - cron: */1 * * * *
+    - cron: '*/1 * * * *'
   watch:
     types: [started]
 
